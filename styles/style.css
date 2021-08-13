@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    min-width: 100%;;
+    display: block;
+}
+
+/* TYPOGRAPHY */
+
+.card {
+    outline: 4px solid blue;
+}
+
+
+/* CARD */
+.card {
+    text-align: center;
+    max-width: 30%;
+    min-width: 30%;
+    margin: 0 auto;
+}
+
+/* CONTAINER */
+
+/* IMAGE SECTION */
+
+.image-section img {
+    width: 100%;
+}
+
+/* SUMMARY SECTION */ 
+
+.summary-section p {
+    max-width: 60%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+/* ANNUAL PLAN SECTION */
+.annual-plan-section {
+    margin: 0 auto;
+    margin-bottom: 3em;
+    width: 80%;
+    background: #f5f7ff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.change-btn {
+    background: none;
+    border: none;
+}
+
+.change-btn:hover,
+.change-btn:focus {
+    border-bottom: 1px solid black;
+}
+
+.music-icon {
+    font-size: 1rem;
+}
+
+/* ANNUAL PLAN INFO SECTION */
+.annual-plan-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-header {
+    margin-bottom: 0;
+}
+
+.annual-plan-info p {
+    margin-top: 0.5em;
+}
+
+/* BUTTONS SECTION */
+
+.buttons-section {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    margin-bottom: 1em;
+    padding: 1em 2.5em;
+    border-radius: 10px;
+    font-weight: 900;
+}
+
+.payment-btn {
+    background: #3829e0;
+    color: white;
+}
