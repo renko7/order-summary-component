@@ -1,0 +1,18 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+  font-family: 'Red Hat Display', sans-serif;
+  color: red;
+  background-image: url("../images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-color: #e0e8ff;
+}
+/*# sourceMappingURL=main.css.map */
