@@ -13,7 +13,12 @@
         .attribution { font-size: 11px; text-align: center; }
         .attribution a { color: hsl(228, 45%, 44%); }
     </style>
-    <link href="styles/normalize.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+        rel="stylesheet"
+    />
     <link href="styles/style.css" rel="stylesheet" /> 
 </head>
 <body>
@@ -22,27 +27,27 @@
             <div class="image-section">
                 <img src="images/illustration-hero.svg" alt="girl dancing" />
             </div>
-
-            <div class="summary-section">
-                <h1>Order Summary</h1>
-                <div class="container">
-                    <p>
-                        You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
-                    </p>
+            <div class="card-body">
+                <div class="summary-section">
+                    <h1>Order Summary</h1>
+                    <div class="container">
+                        <p>
+                            You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
+                        </p>
+                    </div>
                 </div>
-            </div>
-
-            <div class="annual-plan-section">
-                <div class="annual-plan-info">
-                    <h2 class="plan-header">Annual Plan</h2>
-                    <p class="cost">$59.99/year</p>
+                <div class="annual-plan-section">
+                    <img class="music-icon" src="images/icon-music.svg" />
+                    <div class="annual-plan-info">
+                        <h2 class="plan-header">Annual Plan</h2>
+                        <p class="cost">$59.99/year</p>
+                    </div>
+                    <button class="change-btn">Change</button>
                 </div>
-                <button class="change-btn">Change</button>
-            </div>
-
-            <div class="buttons-section">
-                <button class="btn payment-btn">Proceed to Payment</button>
-                <button class="btn cancel-order-btn">Cancel Order</button>
+                <div class="buttons-section">
+                    <button class="btn payment-btn">Proceed to Payment</button>
+                    <button class="btn cancel-order-btn">Cancel Order</button>
+                </div>
             </div>
         </div>
     </main>
