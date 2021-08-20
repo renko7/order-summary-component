@@ -1,3 +1,109 @@
+.container {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card {
+  width: 88%;
+  margin-top: 5em;
+  border-radius: 20px;
+  background: white;
+  text-align: center;
+  max-width: 450px;
+}
+
+.card-wrapper {
+  padding: 2em;
+}
+
+.hero-header {
+  font-weight: 900;
+}
+
+.hero-image {
+  max-width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.description {
+  line-height: 2;
+  padding: 0 2em;
+  font-weight: 500;
+}
+
+.plan-card {
+  background: #f5f7ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px;
+}
+
+.plan-card .music-icon {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.plan-card a {
+  color: #3829e0;
+  text-decoration: underline;
+  font-weight: 900;
+}
+
+.plan-header {
+  font-weight: 700;
+}
+
+.change:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
+
+.buttons {
+  margin-top: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.btn {
+  margin-bottom: 2em;
+  border-radius: 20px;
+}
+
+.payment-btn {
+  background: #3829e0;
+  color: white;
+  padding: 1em 2.5em;
+  font-weight: 700;
+}
+
+.payment-btn:hover {
+  opacity: 0.75;
+}
+
+.cancel-order-btn:hover {
+  font-weight: 900;
+}
+
 *,
 *::before,
 *::after {
@@ -6,6 +112,7 @@
 }
 
 body {
+  margin: 0;
   font-size: 1rem;
   font-family: 'Red Hat Display', sans-serif;
   background-image: url("../images/pattern-background-mobile.svg");
