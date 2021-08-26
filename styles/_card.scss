@@ -44,6 +44,7 @@
     border-radius: 20px;
     .music-icon {
         object-fit: contain;
+        margin-right: 0;
     }
     a {
         color: $bright-blue;
@@ -54,6 +55,10 @@
 
 .plan-header {
     font-weight: 700;
+}
+
+.plan-info {
+    margin-left: 0;
 }
 
 .change {
